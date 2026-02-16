@@ -6,13 +6,7 @@ import {mapStationsFromApi} from "../mappers/station.mapper.ts";
 
 export const fetchStations = async (): Promise<Station[]> => {
     try {
-        const response = await fetch(API_CONFIG.STATIONS_URL, {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        });
-
+        const response = await fetch(API_CONFIG.STATIONS_URL);
         if (!response.ok) {
             throw new Error(`Network response was not ok: ${response.statusText}`);
         }
