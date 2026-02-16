@@ -11,15 +11,5 @@ export interface Station {
     coordinates: Coordinates;
 }
 
-export interface StationFilter {
-    city?: string;
-    searchQuery?: string;
-}
-
 export type LoadingState = 'idle' | 'loading' | 'success' | 'error';
 
-export interface ApiError {
-    message: string;
-    code?: string;
-    timestamp?: string;
-}
