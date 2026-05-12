@@ -1,7 +1,6 @@
 🚆 Germany Train Stations Map
 A React-based interactive web application to visualize and explore German train stations on a Leaflet map with real-time search and filtering capabilities.
 
-Frontend Assignment - PANTOhealth
 
 🎯 Overview
 This application fetches train station data from an API and displays them on an interactive map centered on Germany. Users can search stations by name or city, click on stations to view details, and interact with both the map and sidebar list seamlessly.
@@ -172,5 +171,3 @@ https://gist.githubusercontent.com/neysidev/bbd40032f0f4e167a1e6a8b3e99a490c/raw
 
 📝 License
 MIT License
-
-Built with ❤️ for PANTOhealth Frontend Assignment
